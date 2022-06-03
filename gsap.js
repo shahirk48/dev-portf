@@ -97,7 +97,7 @@ window.onload = function () {
   var card1ImgAfter = CSSRulePlugin.getRule(".card1-img:after");
 
   let cardImgTL1 = gsap.timeline({
-    scrollTrigger: { trigger: ".card1-img" },
+    scrollTrigger: { trigger: ".card1-title" },
     defaults: { delay: 0 },
   });
 
@@ -158,7 +158,7 @@ window.onload = function () {
   var card2ImgAfter = CSSRulePlugin.getRule(".card2-img:after");
 
   let cardImgTL2 = gsap.timeline({
-    scrollTrigger: { trigger: ".card2-img" },
+    scrollTrigger: { trigger: ".card2-title" },
     defaults: { delay: 0 },
   });
 
@@ -219,7 +219,7 @@ window.onload = function () {
   var card3ImgAfter = CSSRulePlugin.getRule(".card3-img:after");
 
   let cardImgTL3 = gsap.timeline({
-    scrollTrigger: { trigger: ".card3-img" },
+    scrollTrigger: { trigger: ".card3-title" },
     defaults: { delay: 0 },
   });
 
@@ -280,7 +280,7 @@ window.onload = function () {
   var card4ImgAfter = CSSRulePlugin.getRule(".card4-img:after");
 
   let cardImgTL4 = gsap.timeline({
-    scrollTrigger: { trigger: ".card4-img" },
+    scrollTrigger: { trigger: ".card4-title" },
     defaults: { delay: 0 },
   });
 
